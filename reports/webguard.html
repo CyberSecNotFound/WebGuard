@@ -1,0 +1,64 @@
+
+    <html>
+    <head>
+        <title>WebGuard Security Report</title>
+        <style>
+            body { font-family: Arial; padding:20px; }
+            table { width:100%; border-collapse:collapse; }
+            th, td { border:1px solid #ccc; padding:8px; }
+            th { background:#222; color:white; }
+        </style>
+    </head>
+    <body>
+        <h1>WebGuard Executive Security Report</h1>
+        <p><b>Target:</b> https://portfolio.404cybersecurity.lovestoblog.com</p>
+        <p><b>Date:</b> 2026-01-08 16:49:10.281958</p>
+        <h2>Security Posture Score: 77.5/100</h2>
+
+        <h2>Risk Summary</h2>
+        <pre>{
+    "CRITICAL": 0,
+    "HIGH": 3,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "risk_score": 22.5
+}</pre>
+
+        <h2>Findings</h2>
+        <table>
+            <tr>
+                <th>Severity</th>
+                <th>Title</th>
+                <th>OWASP</th>
+                <th>CVSS</th>
+                <th>Description</th>
+            </tr>
+            
+        <tr>
+            <td>HIGH</td>
+            <td>Missing security header</td>
+            <td>A05:2021 Security Misconfiguration</td>
+            <td>7.5</td>
+            <td>Content-Security-Policy missing</td>
+        </tr>
+        
+        <tr>
+            <td>HIGH</td>
+            <td>Missing security header</td>
+            <td>A05:2021 Security Misconfiguration</td>
+            <td>7.5</td>
+            <td>X-Frame-Options missing</td>
+        </tr>
+        
+        <tr>
+            <td>HIGH</td>
+            <td>Missing security header</td>
+            <td>A05:2021 Security Misconfiguration</td>
+            <td>7.5</td>
+            <td>X-Content-Type-Options missing</td>
+        </tr>
+        
+        </table>
+    </body>
+    </html>
+    

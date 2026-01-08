@@ -1,0 +1,35 @@
+{
+    "findings": [
+        {
+            "title": "Missing security header",
+            "severity": "HIGH",
+            "cvss": 7.5,
+            "owasp": "A05:2021 Security Misconfiguration",
+            "description": "Content-Security-Policy missing",
+            "recommendation": "Add Content-Security-Policy"
+        },
+        {
+            "title": "Missing security header",
+            "severity": "HIGH",
+            "cvss": 7.5,
+            "owasp": "A05:2021 Security Misconfiguration",
+            "description": "X-Frame-Options missing",
+            "recommendation": "Add X-Frame-Options"
+        },
+        {
+            "title": "Missing security header",
+            "severity": "HIGH",
+            "cvss": 7.5,
+            "owasp": "A05:2021 Security Misconfiguration",
+            "description": "X-Content-Type-Options missing",
+            "recommendation": "Add X-Content-Type-Options"
+        }
+    ],
+    "summary": {
+        "CRITICAL": 0,
+        "HIGH": 3,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "risk_score": 22.5
+    }
+}
